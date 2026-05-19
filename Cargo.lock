@@ -15,6 +15,7 @@ dependencies = [
 [[package]]
 name = "endstone-copper"
 version = "0.1.0"
+source = "git+https://github.com/niko-at-chalupa/endstone-copper-rs#49b52e5a61a90dd44f66fe1cddf383214dec3799"
 dependencies = [
  "cc",
  "endstone-copper-macros",
@@ -23,6 +24,7 @@ dependencies = [
 [[package]]
 name = "endstone-copper-macros"
 version = "0.1.0"
+source = "git+https://github.com/niko-at-chalupa/endstone-copper-rs#49b52e5a61a90dd44f66fe1cddf383214dec3799"
 dependencies = [
  "quote",
  "syn",

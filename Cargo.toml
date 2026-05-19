@@ -7,5 +7,5 @@ edition = "2024"
 crate-type = ["cdylib"]
 
 [dependencies]
-endstone-copper = { path = "/home/niko/Development/repositories/endstone-copper-rs/copper" }
-endstone-copper-macros = { path = "/home/niko/Development/repositories/endstone-copper-rs/copper-macros" }
+endstone-copper = { git = "https://github.com/niko-at-chalupa/endstone-copper-rs" }
+endstone-copper-macros = { git = "https://github.com/niko-at-chalupa/endstone-copper-rs" }
