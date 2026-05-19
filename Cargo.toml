@@ -1,0 +1,11 @@
+[package]
+name = "my_copper_plugin"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+endstone-copper = { path = "/home/niko/Development/repositories/endstone-copper-rs/copper" }
+endstone-copper-macros = { path = "/home/niko/Development/repositories/endstone-copper-rs/copper-macros" }
